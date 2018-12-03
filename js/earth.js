@@ -31,7 +31,7 @@ function init() {
     let xhr = new XMLHttpRequest();
 
     // Where do we get the data?
-    xhr.open('GET', './../data/airData.json', true);
+    xhr.open('GET', 'https://wenqili.github.io/three-data-boilerplate/data/airData.json', true);
 
     // What do we do when we have it?
     xhr.onreadystatechange = () => {

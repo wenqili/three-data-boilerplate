@@ -32,7 +32,7 @@ let init = () => {
     let group = new THREE.Group();
 
     // data display
-    JSONProcessor("./../../data/Artists.json").then(data => {
+    JSONProcessor("https://wenqili.github.io/three-data-boilerplate/data/Artists.json").then(data => {
 
         let maleCount = 0;
         
